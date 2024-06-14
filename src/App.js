@@ -33,7 +33,7 @@ export const App = () => {
           <Model position={[0, -0.15, 0]} /> {/* Replace the mesh with the model */}
           <Banner position={[0, -0.15, 0]} />
         </ScrollControls>
-        <Environment files='./assets/sky.exr' background />
+        <Environment files='./sky.exr' background />
         {/* {showScrollText && (
           <Html>
             <div className="scroll-instruction">
